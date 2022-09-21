@@ -1,4 +1,4 @@
-package com.aditya.list;
+package com.aditya.list.impl;
 
 public class ListService<T> {
 
