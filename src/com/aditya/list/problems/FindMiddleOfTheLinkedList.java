@@ -11,7 +11,7 @@ import com.aditya.list.impl.Node;
  *
  * APPROACH 2:
  * i) Use of slow and fast pointers
- * ii)Increment slow pointer by one and fast pointer by two till fast.next becomes null in case of even length and fast==null in case of odd length
+ * ii)Increment slow pointer by one and fast pointer by two till fast.next becomes null in case of odd length and fast==null in case of even length
  * iii) Now as soon as this condition is met return slow
  * iv) Core logic is Slow will always travel half the length as the fast pointer
  *
