@@ -1,4 +1,4 @@
-package com.aditya.map;
+package com.aditya.map.impl;
 
 /* By default equals method returns true if two objects have same memory locations otherwise false
    But this nature can be overriden by the equals method
@@ -15,7 +15,6 @@ public class Hashmap {
         Map<Integer,Integer> map=new HashMap<>();
         map.put(1,1);
         map.put(null,2);
-        map.put(1,2);
         map.put(null,5);
 
         System.out.println(map);

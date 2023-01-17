@@ -1,4 +1,4 @@
-package com.aditya.map;
+package com.aditya.map.problems;
 
 /**
  * The problem aims at solving the ransom note find in a magazine
